@@ -19,9 +19,11 @@ browser = webdriver.Chrome("chromedriver.exe")
 browser.get('https://www.facebook.com/')
 
 # user_name or e-mail id
-username = "agrawal.abhi108@gmail.com"
+username = "acharyasneh007@gmail.com" #replace it with yours
 
 # getting password from text file
+
+# Make a separate test.txt file and put your Facebook password in it before the execution of the below program.
 with open('test.txt', 'r') as myfile:
 	password = myfile.read().replace('\n', '')
 
